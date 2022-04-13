@@ -23,6 +23,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchMvc.WebUI", "Clean
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04_Test", "04_Test", "{A2543289-943E-4940-AF8C-EB3218C4034C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05_Docker", "05_Docker", "{1C9B6A4D-1564-47D6-88A8-531FC6F00BA2}"
+	ProjectSection(SolutionItems) = preProject
+		DockerBd.bat = DockerBd.bat
+	EndProjectSection
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{A6A53B8A-30BD-473F-933E-9057EDB9D2CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +60,10 @@ Global
 		{41639978-CE0C-4DCD-AB48-C732B309E757}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41639978-CE0C-4DCD-AB48-C732B309E757}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41639978-CE0C-4DCD-AB48-C732B309E757}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6A53B8A-30BD-473F-933E-9057EDB9D2CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6A53B8A-30BD-473F-933E-9057EDB9D2CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6A53B8A-30BD-473F-933E-9057EDB9D2CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6A53B8A-30BD-473F-933E-9057EDB9D2CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,6 +75,7 @@ Global
 		{B8C05326-3668-43DF-AF89-D3A55487270E} = {1FC7511A-3C8B-4C94-88CD-58735F959235}
 		{C58ACC6B-E4C7-49AB-BC97-2EB70E47B472} = {A2543289-943E-4940-AF8C-EB3218C4034C}
 		{41639978-CE0C-4DCD-AB48-C732B309E757} = {6B22D6FF-CAD0-409B-B43D-77B058163C44}
+		{A6A53B8A-30BD-473F-933E-9057EDB9D2CD} = {1C9B6A4D-1564-47D6-88A8-531FC6F00BA2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {998C5E16-46EB-49CD-A226-501E5591F05C}

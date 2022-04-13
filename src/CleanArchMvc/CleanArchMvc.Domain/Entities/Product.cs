@@ -10,7 +10,7 @@ namespace CleanArchMvc.Domain.Entities
     public sealed class Product : Entity
     {
         public string Name { get; private set; }
-        public string Descripition { get; private set; }
+        public string Description { get; private set; }
         public decimal Price { get; private set; }
         public int Stock { get; private set; }
         public string Image { get; private set; }
@@ -25,10 +25,9 @@ namespace CleanArchMvc.Domain.Entities
         {
             ValidationDomain(id, name, description, price, stock, image);
         }
-
         public void Update(string name)
         {
-            ValidationDomain(this.Id, name, this.Descripition, this.Price, this.Stock, this.Image);
+            ValidationDomain(this.Id, name, this.Description, this.Price, this.Stock, this.Image);
         }
         private void ValidationDomain(int id, string name, string description, decimal price, int stock, string image)
         {
@@ -50,7 +49,7 @@ namespace CleanArchMvc.Domain.Entities
 
             this.Id = id;
             this.Name = name;
-            this.Descripition = description;
+            this.Description = description;
             this.Price = price;
             this.Stock = stock;
             this.Image = image;
