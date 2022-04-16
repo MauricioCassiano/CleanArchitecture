@@ -1,5 +1,6 @@
-﻿using CleanArchMvc.Domain.Interfaces;
+﻿
 using CleanArchMvc.Infra.Data.Context;
+using CleanArchMvc.Infra.Data.Interfaces;
 using CleanArchMvc.Infra.Data.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;

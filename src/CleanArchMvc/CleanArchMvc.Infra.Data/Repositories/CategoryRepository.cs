@@ -1,6 +1,7 @@
 ﻿using CleanArchMvc.Domain.Entities;
 using CleanArchMvc.Domain.Interfaces;
 using CleanArchMvc.Infra.Data.Context;
+using CleanArchMvc.Infra.Data.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;

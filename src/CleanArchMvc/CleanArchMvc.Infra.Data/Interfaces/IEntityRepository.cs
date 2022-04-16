@@ -1,11 +1,8 @@
-﻿using CleanArchMvc.Domain.Entities;
-using System;
+﻿using CleanArchMvc.Domain.Interfaces;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
-namespace CleanArchMvc.Domain.Interfaces
+namespace CleanArchMvc.Infra.Data.Interfaces
 {
     public interface IEntityRepository<TEntity>
         where TEntity : class, IEntity
