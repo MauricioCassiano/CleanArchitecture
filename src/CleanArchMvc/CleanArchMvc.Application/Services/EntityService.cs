@@ -15,8 +15,8 @@ namespace CleanArchMvc.Application.Services
         where TEntityDTO : class, IEntityDTO
         where TRepository : class, IEntityRepository<TEntity>
     {
-        private TRepository _repository;
-        private readonly IMapper _mapper;
+        protected readonly TRepository _repository;
+        protected readonly IMapper _mapper;
         public EntityService(TRepository repository, IMapper mapper)
         {
             _repository = repository ?? throw new ArgumentNullException(nameof(repository));

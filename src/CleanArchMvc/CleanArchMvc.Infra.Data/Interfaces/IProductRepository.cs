@@ -9,6 +9,6 @@ namespace CleanArchMvc.Infra.Data.Interfaces
 {
     public interface IProductRepository : IEntityRepository<Product>
     {
-        Task<Product> GetProductCategoryAsync(int? id);
+         Task<Product> GetProductCategoryAsync(int? id);
     }
 }

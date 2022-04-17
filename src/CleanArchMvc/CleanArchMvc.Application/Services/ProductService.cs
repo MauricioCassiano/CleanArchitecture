@@ -14,8 +14,11 @@ namespace CleanArchMvc.Application.Services
     {
         public ProductService(IProductRepository repository, IMapper mapper) 
             : base(repository, mapper)
+        {}
+        public async Task<ProductDTO> GetProductCategoryAsync(int? id)
         {
-
+            var entity = await _repository.GetByIdAsync(id);
+            return _mapper.Map<ProductDTO>(entity);
         }
     }
 }
